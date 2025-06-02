@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+body {
+  background-color: #121419;
+  color: #ffff;
+}
+
+.heading-font {
+  font-family: "Poppins", sans-serif;
+}
+
+.body-font {
+  font-family: "Nunito", sans-serif;
+}
+
+.footer-font {
+  font-family: "Karla", sans-serif;
+}
