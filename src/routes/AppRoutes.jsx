@@ -15,9 +15,9 @@ export const AppRoutes = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/animedetail" element={<AnimeDetail />} />
           <Route path="/watchlist" element={<Watchlist />} />
           <Route path="/about" element={<About />} />
+          <Route path="/anime/:id" element={<AnimeDetail />} />
           {/* ERROR PAGE */}
           <Route path="*" element={<Error />} />
         </Route>

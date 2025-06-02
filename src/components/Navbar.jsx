@@ -14,9 +14,6 @@ export const Navbar = () => {
             <NavLink to="/search">Search</NavLink>
           </li>
           <li>
-            <NavLink to="/animedetail">AnimeDetail</NavLink>
-          </li>
-          <li>
             <NavLink to="/watchlist">Watchlist</NavLink>
           </li>
           <li>
